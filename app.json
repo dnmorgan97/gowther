@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Gowther",
+    "description": "Gowther",
+    "scheme": "com.gowther",
+    "facebookScheme":"fb371083134041413",
+    "facebookAppId":"1834815726668453",
+    "slug": "com.gowther",
+    "privacy": "public",
+    "version": "0.0.1",
+    "platforms": ["android", "ios", "web"],
+    "githubUrl": "",
+    "orientation": "portrait",
+    "primaryColor": "#181414",
+    "icon": "src/assets/icon.png",
+
+    "splash": {
+      "backgroundColor": "#181414",
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.newflorenceinteractive.gowther",
+      "buildNumber": "0.0.1",
+      "supportsTablet": true
+    }
+  }
+}
